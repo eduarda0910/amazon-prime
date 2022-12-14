@@ -1,0 +1,144 @@
+
+*{
+font-family: 'sarala', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+
+}
+
+body{
+font-size: 100%;
+background:linear-gradient(68.15deg,#4682B4 16.62%,#87CEEB 85.61%)
+}
+a{
+    text-decoration:black;
+}
+.cabecalho{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 24px;
+color: black;
+text-decoration: none;
+    
+}
+
+.cabecalho-imagem{
+height: 90px;
+}
+
+.cabecalho-menu{
+display: flex;
+gap: 32px;
+
+}
+
+.cabecalho-menu-item{
+font-family: 'sarala', sans-serif;
+font: 400;
+font-size: 18px;
+
+ }
+
+
+.conteudo{
+margin-bottom: 48px;
+border-top: 0.4px solid #fcfcfc;
+}
+
+.conteudo-principal{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+display: flex;
+flex-direction: column;
+gap: 32px;
+color:  #fff4eb;
+}
+
+.conteudo-principal-escrito-titulo{
+font-family: 'sarala', sans-serif;
+font-weight: 400;
+font-size: 64px;
+color: #fff4eb;
+    }
+
+
+.conteudo-principal-escrito-subtitulo{
+font-family:  'sarala', sans-serif;
+font-weight: 400;
+font-size: 24px;
+
+}
+
+.conteudo-principal-escrito-botao{
+ background-color: #f8f8ff;
+width: 180px;
+height: 60px;
+border:none;
+box-shadow: 4px 4px 4px rgb(59, 58, 58);
+border-radius: 20px;
+font-family:  'sarala', sans-serif;
+font-weight: 400;
+font-size: 24px;
+}
+
+.conteudo-principal-escrito-botao:hover{
+background-color: rgba(250, 254, 255, 0.53);
+}
+
+.conteudo-principal-imagem{
+height: 450px;
+}
+
+.conteudo-secundario{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 24px;
+ margin-top: 48px;
+ margin-left: 15px;
+}
+
+
+.conteudo-secundario-titulo{
+border-top:0.4px solid #c9c9c9;
+padding-top: 48px;
+font-family:  'sarala', sans-serif;
+font-weight: 400;
+font-size: 24px;
+margin-bottom: 16px;
+
+}
+
+
+.conteudo-secundario-paragrafo{
+font-family:  'sarala', sans-serif;
+font-weight: 400;
+font-size: 20px;
+}
+
+
+.rodape{
+padding: 32px;
+border-top:0.4px solid  #fcfcfc;  
+color: #000000;
+}
+
+.rodape-imagem{
+height: 60px;
+display: block;
+margin: 0 auto;
+}
+
+
+
+
+
